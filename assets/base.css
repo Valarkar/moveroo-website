@@ -36,6 +36,19 @@ body {
     letter-spacing: -0.025rem;
 }
 
+.row-boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-unit {
+    height: 399px;
+    width: 192px;
+    margin: auto 16px;
+    font-size: 16px;
+}
+
 .logo {
     position: absolute;
     height: 50px;
@@ -62,7 +75,7 @@ body {
 
 .subtitle {
     padding-top: 24px;
-    width: 800px;
+    width: 60%;
     margin-left:auto;
     margin-right:auto;
 
